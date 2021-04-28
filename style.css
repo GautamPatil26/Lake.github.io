@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, -0.5)),
+    url(./images/ken-cheung-KonWFWUaAuk-unsplash.jpg);
+  height: 684.5px;
+  width: 1280px;
+  background-size: cover;
+}
+ul {
+  float: right;
+  list-style-type: none;
+}
+#hh {
+  position: absolute;
+  align-self: auto;
+  top: 30%;
+  left: 30%;
+  font-size: 200px;
+  text-transform: uppercase;
+  color: white;
+}
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+ul li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 1px;
+  width: auto;
+}
+ul li a {
+  text-decoration: none;
+
+  color: white;
+  background: transparent;
+  border: 0.5px solid white;
+  padding: 3px;
+  text-transform: uppercase;
+}
+ul li :hover {
+  background-color: rgb(250, 204, 212);
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s linear;
+  animation: linear;
+}
+#j {
+  position: absolute;
+  top: 80%;
+  left: 53%;
+}
+#l {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+}
+span a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  border: 0.5px solid white;
+  text-transform: uppercase;
+  padding: 2px;
+}
+span :hover {
+  background-color: rgb(250, 204, 212);
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s linear;
+  animation: linear;
+}
+h1 :hover {
+  background-image: url(./images/lake2.jpeg);
+  height: 450px;
+  width: 650px;
+  background-size: cover;
+  border: 2px solid white;
+  margin-bottom: 2px;
+}
+img {
+  margin: 10px;
+  float: left;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+div h1 a {
+  padding-right: 10px;
+}
